@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="estilo.css">
+   
+</head>
+<body>
+    <img src="C:\xampp\htdocs\mi1mersitioweb\imagen1.jpg.jpg" alt="Foto de perfil" class="imagen-perfil">
+    <h1>Juan Sebastián Polo López</h1>
+    <p>¡Hola! Soy Juan López, un entusiasta de la tecnología y estudiante de programación. Desde pequeño, siempre me ha fascinado cómo funcionan las cosas, lo que me llevó a explorar el mundo de la informática. Actualmente, estoy estudiando en la CORPORACIÓN UNIVERSITARIA IBEROAMERICANA para mejorar mis habilidades y estar preparado para los desafíos del futuro.</p>
+    <p> Mi experiencia en competencias básicas digitales ha sido increíblemente enriquecedora. He aprendido a utilizar herramientas y tecnologías que antes desconocía, lo que me ha permitido ser más eficiente en mis tareas diarias y proyectos personales. Estoy emocionado por seguir aprendiendo y aplicando estos conocimientos en el desarrollo de soluciones innovadoras.</p>
+    <video class="video-pequeno" controls>
+        <source src="C:\Users\USUARIO\Videos\video competencias digitales.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de videos.
+    </video>
+    <section>
+        <button class="boton-deportes" onclick="mostrarDeportes()">Interés Personal</button>
+    </section>
+    <section id="seccion-deportes" style="display:none;">
+        <h2>Deportes: Baloncesto</h2>
+        <h3>Jugador favorito: LeBron James</h3>
+        <p>LeBron James es considerado uno de los mejores jugadores de baloncesto de todos los tiempos. Actualmente juega para los Ángeles Lakers.</p>
+        <h3>Los Ángeles Lakers</h3>
+        <p>A pesar de no ser el mejor equipo, los Ángeles Lakers son mi equipo favorito. Este equipo ha tenido una historia rica y variada en la NBA.</p>
+        <p>Los Lakers han ganado 17 campeonatos de la NBA, empatados con los Boston Celtics como los equipos con más títulos. Sus jugadores históricos incluyen a Magic Johnson, Kareem Abdul-Jabbar y Kobe Bryant.</p>
+        <h4>Estadísticas Históricas:</h4>
+        <ul>
+            <li>17 campeonatos de la NBA</li>
+            <li>32 apariciones en las Finales de la NBA</li>
+            <li>Numerosos MVPs y All-Stars en su historia</li>
+        </ul>
+        <h3>Eventos Importantes y Otros Equipos</h3>
+        <p>El All-Star Game y los Playoffs de la NBA son eventos cruciales en el calendario de baloncesto. Otros equipos notables incluyen a los Boston Celtics, Chicago Bulls y Golden State Warriors.</p>
+        <a href="https://www.vavel.com/es/data/los-angeles-lakers/bio/#:~:text=Los%20Angeles%20Lakers%20Biograf%C3%ADa%201%20Or%C3%ADgenes%20y%20primeros,...%208%20Una%20transici%C3%B3n%20fallida%20...%20M%C3%A1s%20elementos" target="_blank">Sacado de:</a>
+    </section>
+    
+    <script>
+        function mostrarDeportes() {
+            document.getElementById('seccion-deportes').style.display = 'block';
+        }
+    </script>
+    
+    <footer>
+        <a href="https://wa.me/+573216715340" class="boton-whatsapp">WhatsApp</a> | 
+    </footer>
+    <h2>Fecha de creación: 20/05/2024</h2>
+    <h2>Hora de creación: 7:50 PM</h2>
+</body>
+</html>

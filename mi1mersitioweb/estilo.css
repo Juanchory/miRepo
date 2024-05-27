@@ -1,0 +1,84 @@
+body {
+    background-color: #2f2f2f;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 50px; /* Bordes redondeados */
+    display: inline-block; /* Ajusta el fondo al tamaño del contenido */
+     position: relative; /* Para posicionar los pseudo-elementos */
+}
+.video-pequeno {
+    width: 600px; /* Ajusta el ancho */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+.imagen-perfil {
+    width: 30%; /* 50% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Para centrar la imagen */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    margin: 20px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+h2 {
+    color: white;
+}
+.boton-whatsapp {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #25D366; /* Color verde de WhatsApp */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.boton-whatsapp:hover {
+    background-color: #128C7E; /* Color más oscuro para el efecto hover */
+}
+.boton-deportes {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #FF5733; /* Color del botón */
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.boton-deportes:hover {
+    background-color: #C70039; /* Color más oscuro para el efecto hover */
+}
+
